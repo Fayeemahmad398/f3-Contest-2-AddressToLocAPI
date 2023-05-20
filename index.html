@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoAPI</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReZf0XsjJRfQ2zGSPC89Peh49X8BMe-DuWTDa5AK0&s"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="headings">
+        <h1>TimeZone API</h1>
+        <h1>
+          Your Current Time Zone
+        </h1>
+      </div>
+
+      <div id="box1"></div>
+
+      <div class="lower-part">
+        <h1>Enter Address</h1>
+        <div class="btninput">
+          <input
+            type="text"
+            placeholder="Enter the adress to get details"
+            id="search"
+          />
+          <button id="submit-btn">Submit</button>
+        </div>
+        <h1 id="result">Your Results:</h1>
+        <div id="box2">
+          <p id="msg">Please enter an address!</p>
+          <p id="notfound">
+            Timezone could not be found !
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

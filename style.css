@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  
+  margin: 0px;
+  font-family: sans-serif;
+  background: linear-gradient(grey, rgb(157, 157, 230), rgb(181, 179, 225));
+}
+#notfound {
+  display: none;
+  color: red;
+  text-align: center;
+  font-size: 23px;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+#box1 {
+  height: 60%;
+  width: 95%;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+#result {
+  display: none;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+#msg {
+  display: none;
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+.infoBox {
+  outline: 0.1px solid rgb(117, 117, 117);
+  box-shadow: 7px 10px 15px grey;
+  height: 85%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+}
+.data {
+  font-size: 23px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.data strong {
+  margin: 0px 10px;
+}
+.latlong {
+  justify-content: space-between;
+  align-items: center;
+}
+#box2 {
+  outline: 0.1px solid black;
+  height: 60%;
+  width: 95%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.btninput {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 34px;
+  margin-bottom: 10px;
+  background: #000;
+  font-size: large;
+  padding: 0px 20px;
+  color: #fff;
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+  margin: 10px auto;
+}
+button {
+  height: 25px;
+  width: 170px;
+  background: #fff;
+  color: #000;
+  margin: 5px auto;
+}
+button:hover {
+  background-color: black;
+  color: #fff;
+}
+.lower-part {
+  background: #8d8484;
+  color: #fff;
+  border-radius: 20px;
+  color: #000;
+}
+@media (max-width: 750px) {
+  .data {
+    font-size: 16px;
+  }
+  .container {
+    width: 97%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
